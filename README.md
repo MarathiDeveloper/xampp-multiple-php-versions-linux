@@ -1,8 +1,6 @@
 # xampp multiple php versions linux install
 ## xampp start stop & php version switch commands
 
- https://www.apachefriends.org/download.html
-
 ## [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html) या वेबसाईटवर तुम्हांला जे PHP version पाहीजे ते डाउनलोड करा. 
 
 ```bash
