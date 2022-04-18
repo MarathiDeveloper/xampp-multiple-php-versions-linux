@@ -39,3 +39,14 @@ cd /opt
   sudo lampp7_4/lampp stop
   sudo rm -r lampp
 ```
+
+## Set environment variable PHP
+```bash
+        cd ~
+
+        sudo gedit .bashrc
+     //.bashrc file last add line 
+     export PATH="/opt/lampp/bin:$PATH"
+     export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+     
+     source ~/.bashrc
