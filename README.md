@@ -2,7 +2,7 @@
 
 https://www.apachefriends.org/download.html
 
-## प्रथम [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html) या वेबसाईटवर तुम्हांला जे PHP version पाहीजे ते डाउनलोड करा. 
+## [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html) या वेबसाईटवर तुम्हांला जे PHP version पाहीजे ते डाउनलोड करा. 
 
 ```bash
 cd Downloads/  
@@ -20,13 +20,24 @@ cd /opt
 ```
 
 वर जाऊन lampp या फोल्डरचे नाव change करा ते कोणतं PHP Version आहे हे कळण्यासाठी 
-
+ 
 ```bash
 
-sudo  lampp  lampp7_4
+ sudo lampp lampp7_4
 
+ 
+
+```
+### Xampp Run Commands  
+
+```bash
  cd /opt
- sudo lampp7421/lampp stop
- sudo rm -r lampp
-
+ sudo ln -s lampp7_4/ lampp
+ sudo lampp7421/lampp start
+ 
+```
+### Xampp Stop Commands  
+```bash
+  sudo lampp7421/lampp stop
+  sudo rm -r lampp
 ```
