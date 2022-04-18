@@ -47,7 +47,7 @@ cd /opt
         sudo gedit .bashrc
 ```
 
-## .bashrc file Add करा.
+## .bashrc file मध्ये शेवटी दोन line Add करा.
  
 ``` bash
 
