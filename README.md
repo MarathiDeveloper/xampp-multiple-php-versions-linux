@@ -45,8 +45,16 @@ cd /opt
         cd ~
 
         sudo gedit .bashrc
-     //.bashrc file last add line 
+```
+
+## .bashrc file Add करा.
+ 
+``` bash
+
      export PATH="/opt/lampp/bin:$PATH"
      export PATH="$HOME/.config/composer/vendor/bin:$PATH"
-     
-     source ~/.bashrc
+```
+##  Save केल्यानंतर command Run करा.
+```bash 
+   source ~/.bashrc
+```   
