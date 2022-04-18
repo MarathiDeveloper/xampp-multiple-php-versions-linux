@@ -23,7 +23,7 @@ cd /opt
  
 ```bash
 
-  sudo lampp lampp7_4
+  sudo mv lampp lampp7_4
 
 ```
 ### Xampp Run Commands  
