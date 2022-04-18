@@ -7,7 +7,7 @@ https://www.apachefriends.org/download.html
 ```bash
 cd Downloads/  
 ```
-जा आणि त्या फाईल Permission दया. 
+xampp डाउनलोड केलेल्या file ला Permission दया. 
 
 ```bash
 
@@ -23,9 +23,7 @@ cd /opt
  
 ```bash
 
- sudo lampp lampp7_4
-
- 
+  sudo lampp lampp7_4
 
 ```
 ### Xampp Run Commands  
@@ -38,6 +36,6 @@ cd /opt
 ```
 ### Xampp Stop Commands  
 ```bash
-  sudo lampp7421/lampp stop
+  sudo lampp7_4/lampp stop
   sudo rm -r lampp
 ```
