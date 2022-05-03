@@ -53,19 +53,17 @@ cd /opt
 
 ## Set global environment variable PHP
 ```bash
-        cd ~
-
-        sudo gedit .bashrc
+cd ~
+sudo gedit .bashrc
 ```
 
 ## .bashrc file मध्ये शेवटी दोन line Add करा.
  
 ``` bash
-
-     export PATH="/opt/lampp/bin:$PATH"
-     export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export PATH="/opt/lampp/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 ```
 ##  Save केल्यानंतर command Run करा.
 ```bash 
-   source ~/.bashrc
+source ~/.bashrc
 ```   
